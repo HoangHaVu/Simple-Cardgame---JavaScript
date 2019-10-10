@@ -1,0 +1,168 @@
+.carddetail{
+   border:1px black solid;
+   background-color: #999999;
+   color:white;
+   padding: 10px;
+    width: 160px;
+    height: 160px;
+    margin:10px;
+    transition: 0.8s;    
+}
+
+
+.cardheadline{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20;
+}
+
+.carddetail:hover{
+   border:1px black solid;
+   background-color: white;
+   color:#4d4d4d;
+   transition: 0.8s;
+   width: 165px;
+   height: 165px;
+}
+
+.carddetail:visited{
+    border:5px red solid;
+}
+
+.headlines1{
+    margin-left:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30;
+    color:white;
+    
+    
+
+}
+
+
+.headlines2{
+    margin-left:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30;
+    color:black;
+    
+
+}
+
+.selectedcard{
+        margin-left:70px;
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15;
+        color:rgb(255, 255, 255);
+}
+
+.cardattribut{
+    margin-left: 5px;
+    overflow:hidden; 
+    white-space:nowrap; 
+    text-overflow: ellipsis;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15;
+}
+
+.bottomContainer{ 
+    border:1px black solid;
+    width: 700px;
+    margin-left: 400px;
+   
+}
+
+.sortbutton{
+    margin-top: 20px;
+    margin-left: 15px;
+    height: 40px;
+    width: 100px;
+    font-family: "helvetica";
+    font-size: 15px;
+    border: 1px solid  #12005e;
+    background:  #12005e;
+    cursor: pointer;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    color:rgb(253, 250, 255);
+    
+    
+}
+
+.sortbutton:hover{
+    background-color: #fff;
+    transition: 0.8s;
+    color: #12005e;
+    height: 45px;
+    width: 105px;
+}
+
+
+
+
+.upperContainer{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+   
+}
+
+.sortContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+#cardbracket{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+}
+
+#detailbracket{
+border:1px black solid;
+background-color: #4527a0;
+width:440px;
+height:250px;
+margin-right:10px;
+margin-left: 400px;
+}
+
+
+#functionbracket{
+border:1px black solid;
+background-color: #4527a0;
+width :250px;
+
+
+}
+
+#submitbutton{
+    margin-left: 15px;
+    margin-top: 10px;
+    height: 40px;
+    width: 215px;
+    border: 1px solid  #12005e;
+    font-family: "helvetica";
+    font-size: 15px;
+    background: #12005e;
+    cursor: pointer;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    color:rgb(255, 255, 255);
+}
+
+#submitbutton:hover{
+    background-color: #fff;
+    transition: 0.8s;
+    color: #12005e;
+    height: 45px;
+    width: 220px;
+}
+
+
+

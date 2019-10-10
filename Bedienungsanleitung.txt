@@ -1,0 +1,13 @@
+Damit die Daten aus der JSON Datei über die Fetch Methode ausgelesen werden können,
+muss das Skript eine externe URL Adresse bekommen, die diese Daten bereitstellt.
+
+Daher habe ich die Seite http://myjson.com/ benutzt, in der man seine JSON Datei reinkopiert
+und dafür eine URL bekommt, welche die Fetch Methode nun benutzen kann. Diese URL muss man nun
+im script.js in der getData() Methode in die Klammern der Fetch Methode einfügen, womit man nun
+die Seite aufrufen kann.
+
+Die Seite stellt verschiedene Funktionen bereit:
+	- man kann die verschiedenen Karten anklicken, welche dann im Detailfenster angezeigt werden
+	- man kann die jeweiligen Karten auf- und abwärts nach den Namen sortieren
+	- beim Drücken des Submit Button wird, die ausgewählte Karte als JSON Objekt über ein 
+	AJAX Request der jeweiligen Adresse übergeben (Funktion funktioniert nur mit einer funktionierenden Adresse)

@@ -1,0 +1,78 @@
+<html>
+   <head> 
+       <title>AOE Card Game</title>
+       <link rel ="stylesheet" href="../css/style.css">
+       
+
+    </head> 
+    <body>
+        <div class="upperContainer">
+                
+        <div id = "detailbracket"> 
+                <h1 class="headlines1">Details</h1>
+                <p class="selectedCard">Default Name</p>
+                <p class="selectedCard">Default Player Name</p>
+                <p class="selectedCard">Default Asset</p>
+        </div>
+
+        <div id = "functionbracket">
+                <h1 class="headlines1">Controls</h1>
+                <div class= "sortContainer">
+                        <button class="sortbutton" onclick="sortASC()">sort asc</button>
+                        <button class ="sortbutton" onclick="sortDESC()">sort desc</button>
+                </div>
+               
+                <button id="submitbutton" onclick="submitCard()">submit</button>
+        </div>
+
+        </div>
+        <div class="bottomContainer">
+            <h1 class="headlines2">Overview</h1>
+            <div id ="cardbracket">
+            <div class= "carddetail" onclick="selectCard(0)">
+                <h2 class="cardheadline">Card 1</h2>
+                <p class="cardattribut"></p>
+                <p class="cardattribut"></p>
+                <p class="cardattribut"></p>
+            
+                </div>
+            <div class= "carddetail" onclick="selectCard(1)">
+                <h2 class="cardheadline">Card 2</h2>
+                    <p class="cardattribut"></p>
+                    <p class="cardattribut"></p>
+                    <p class="cardattribut"></p>
+            </div>
+
+            <div class= "carddetail"onclick="selectCard(2)">
+                <h2 class="cardheadline">Card 3</h2>
+                    <p class="cardattribut"></p>
+                    <p class="cardattribut"></p>
+                    <p class="cardattribut"></p>
+            </div>
+
+            <div class= "carddetail"onclick="selectCard(3)">
+                <h2 class="cardheadline">Card 4</h2>
+                    <p class="cardattribut"></p>
+                    <p class="cardattribut"></p>
+                    <p class="cardattribut"></p>
+            </div>
+
+            <div class= "carddetail"onclick="selectCard(4)">
+                <h2 class="cardheadline">Card 5</h2>
+                    <p class="cardattribut"></p>
+                    <p class="cardattribut"></p>
+                    <p class="cardattribut"></p>
+            </div>
+
+            <div class= "carddetail"onclick="selectCard(5)">
+                <h2 class="cardheadline">Card 6</h2>
+                    <p class="cardattribut"></p>
+                    <p class="cardattribut"></p>
+                    <p class="cardattribut"></p>
+            </div>
+        </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+    
+</html>
